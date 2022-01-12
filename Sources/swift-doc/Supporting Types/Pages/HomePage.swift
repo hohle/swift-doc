@@ -130,7 +130,7 @@ struct HomePage: Page {
                 \#(externalTypes.sorted().map {
                     #"""
                     <dt class="extension">
-                        <a href="\#(path(for: route(for: $0), with: baseURL))">\#($0)</a>
+                        <a href="\#(path(for: route(for: $0), with: baseURL))/index.html">\#($0)</a>
                     </dt>
                     <dd></dd>
                     """# as HypertextLiteral.HTML

@@ -43,7 +43,7 @@ struct Abstract: Component {
 
         return #"""
         <dt class="\#(descriptor)">
-            <a href=\#(path(for: symbol, with: baseURL)) title="\#(descriptor) - \#(symbol.id.description)">
+            <a href="\#(path(for: symbol, with: baseURL))/index.html" title="\#(descriptor) - \#(symbol.id.description)">
                 \#(softbreak(symbol.id.description))
             </a>
         </dt>
